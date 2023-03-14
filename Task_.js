@@ -17,7 +17,7 @@ class BankAcount {
     if (amount > this.Saldo) {
       return "Maaf saldo anda kurang";
     } else {
-      return (this.Saldo -= amount);
+      return "Saldo anda sekarang : ", (this.Saldo -= amount);
     }
   }
 
@@ -33,8 +33,8 @@ const Whitdrawl1 = Acount1.Whitdrawl(500000);
 const Check1 = Acount1.Check();
 
 console.log(Deposit1);
-console.log(Whitdrawl1);
 console.log(Check1);
+console.log(Whitdrawl1);
 
 console.log("============================");
 
@@ -45,6 +45,5 @@ const Whitdrawl2 = Acount2.Whitdrawl(150000);
 const Check2 = Acount2.Check();
 
 console.log(Deposit2);
-console.log(Whitdrawl2);
 console.log(Check2);
-//Done :)
+console.log(Whitdrawl2);
