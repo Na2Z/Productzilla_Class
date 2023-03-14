@@ -47,3 +47,4 @@ const Check2 = Acount2.Check();
 console.log(Deposit2);
 console.log(Whitdrawl2);
 console.log(Check2);
+//Done :)
