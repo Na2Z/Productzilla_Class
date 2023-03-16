@@ -158,3 +158,4 @@ student2.addNilai(65);
 console.log(student2.getNama());
 console.log(student2.getRataNilai());
 console.log(student2.getNilai());
+//Done :)
